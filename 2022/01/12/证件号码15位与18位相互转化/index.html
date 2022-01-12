@@ -16,22 +16,20 @@
   <meta name="description" content="欢迎来到我的博客！">
   <meta name="author" content="xiaohouzi">
   <meta name="keywords" content="">
-  <meta name="description" content="1. 生成ssh keyssh-keygen -t rsa -C &quot;19***47@qq.com&quot; 2. 权限chmod 600 github(private key) 3. 身份添加(以下为自己的目录)ssh-add &#x2F;Users&#x2F;yourname.github.io&#x2F;github 3.1 成功提示Identity added: &#x2F;Users&#x2F;yourname.github.">
+  <meta name="description" content="校验码计算方法说明：1、将前面的身份证号码17位数分别乘以不同的系数。从第一位到第十七位的系数分别为： 7 9 10 5 8 4 2 1 6 3 7 9 10 5 8 4 2 ； 2、将这17位数字和系数相乘的结果相加； 3、用加出来和除以11，看余数是多少； 4、余数只可能有0 1 2 3 4 5 6 7 8 9 10这11个数字。其分别对应的最后一位身份证的号码为 1 0 X 9 8 7 6">
 <meta property="og:type" content="article">
-<meta property="og:title" content="github配置记录">
-<meta property="og:url" content="https://xiaohouzi0717.github.io/2022/01/12/github%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/index.html">
+<meta property="og:title" content="证件号码15位与18位相互转化">
+<meta property="og:url" content="https://xiaohouzi0717.github.io/2022/01/12/%E8%AF%81%E4%BB%B6%E5%8F%B7%E7%A0%8115%E4%BD%8D%E4%B8%8E18%E4%BD%8D%E7%9B%B8%E4%BA%92%E8%BD%AC%E5%8C%96/index.html">
 <meta property="og:site_name" content="xiaohouzi">
-<meta property="og:description" content="1. 生成ssh keyssh-keygen -t rsa -C &quot;19***47@qq.com&quot; 2. 权限chmod 600 github(private key) 3. 身份添加(以下为自己的目录)ssh-add &#x2F;Users&#x2F;yourname.github.io&#x2F;github 3.1 成功提示Identity added: &#x2F;Users&#x2F;yourname.github.">
+<meta property="og:description" content="校验码计算方法说明：1、将前面的身份证号码17位数分别乘以不同的系数。从第一位到第十七位的系数分别为： 7 9 10 5 8 4 2 1 6 3 7 9 10 5 8 4 2 ； 2、将这17位数字和系数相乘的结果相加； 3、用加出来和除以11，看余数是多少； 4、余数只可能有0 1 2 3 4 5 6 7 8 9 10这11个数字。其分别对应的最后一位身份证的号码为 1 0 X 9 8 7 6">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-01-12T14:47:26.000Z">
-<meta property="article:modified_time" content="2022-01-12T15:18:14.480Z">
+<meta property="article:published_time" content="2022-01-12T14:58:34.000Z">
+<meta property="article:modified_time" content="2022-01-12T15:27:07.981Z">
 <meta property="article:author" content="xiaohouzi">
-<meta property="article:tag" content="git">
-<meta property="article:tag" content="ssh key">
-<meta property="article:tag" content="mac git">
+<meta property="article:tag" content="身份证校验">
 <meta name="twitter:card" content="summary_large_image">
   
-  <title>github配置记录 - xiaohouzi</title>
+  <title>证件号码15位与18位相互转化 - xiaohouzi</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
@@ -177,7 +175,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="github配置记录">
+            <span class="h2" id="subtitle" title="证件号码15位与18位相互转化">
               
             </span>
 
@@ -187,7 +185,7 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2022-01-12 22:47" pubdate>
+      <time datetime="2022-01-12 22:58" pubdate>
         January 12, 2022 pm
       </time>
     </span>
@@ -198,7 +196,7 @@
   
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      352 字
+      1.1k 字
     </span>
   
 
@@ -207,7 +205,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1 分钟
+      4 分钟
     </span>
   
 
@@ -236,16 +234,15 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">github配置记录</h1>
+            <h1 style="display: none">证件号码15位与18位相互转化</h1>
             
             <div class="markdown-body">
-              <h4 id="1-生成ssh-key"><a href="#1-生成ssh-key" class="headerlink" title="1. 生成ssh key"></a>1. 生成ssh key</h4><p><code>ssh-keygen -t rsa -C &quot;19***47@qq.com&quot;</code></p>
-<h4 id="2-权限"><a href="#2-权限" class="headerlink" title="2. 权限"></a>2. 权限</h4><p><code>chmod 600 github(private key)</code></p>
-<h4 id="3-身份添加-以下为自己的目录"><a href="#3-身份添加-以下为自己的目录" class="headerlink" title="3. 身份添加(以下为自己的目录)"></a>3. 身份添加(以下为自己的目录)</h4><p><code>ssh-add /Users/yourname.github.io/github</code></p>
-<h5 id="3-1-成功提示"><a href="#3-1-成功提示" class="headerlink" title="3.1 成功提示"></a>3.1 成功提示</h5><p>Identity added: /Users/yourname.github.io/github (19***<a href="mailto:&#x34;&#x37;&#64;&#113;&#x71;&#46;&#99;&#x6f;&#x6d;">&#x34;&#x37;&#64;&#113;&#x71;&#46;&#99;&#x6f;&#x6d;</a>)</p>
-<h4 id="4-测试"><a href="#4-测试" class="headerlink" title="4. 测试"></a>4. 测试</h4><p><code>ssh -T git@github.com</code></p>
-<h5 id="4-1-成功结果"><a href="#4-1-成功结果" class="headerlink" title="4.1 成功结果"></a>4.1 成功结果</h5><p>Hi ***! You’ve successfully authenticated, but GitHub does not provide shell access.</p>
-
+              <h3 id="校验码计算方法说明："><a href="#校验码计算方法说明：" class="headerlink" title="校验码计算方法说明："></a>校验码计算方法说明：</h3><p>1、将前面的身份证号码17位数分别乘以不同的系数。从第一位到第十七位的系数分别为： 7 9 10 5 8 4 2 1 6 3 7 9 10 5 8 4 2 ；</p>
+<p>2、将这17位数字和系数相乘的结果相加；</p>
+<p>3、用加出来和除以11，看余数是多少；</p>
+<p>4、余数只可能有0 1 2 3 4 5 6 7 8 9 10这11个数字。其分别对应的最后一位身份证的号码为 1 0 X 9 8 7 6 5 4 3 2 ；</p>
+<p>5、通过上面得知如果余数是2，就会在身份证的第18位数字上出现罗马数字的X。</p>
+<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">transfirm_cardId</span>(<span class="hljs-params"><span class="hljs-built_in">id</span></span>):</span><br>    <span class="hljs-string">&quot;&quot;&quot;</span><br><span class="hljs-string">    计算校验码（处理证件号码最后一位数据）</span><br><span class="hljs-string">    :param id: 证件号码</span><br><span class="hljs-string">    :return: 校验码</span><br><span class="hljs-string">    &quot;&quot;&quot;</span><br>    WI = [<span class="hljs-number">7</span>, <span class="hljs-number">9</span>, <span class="hljs-number">10</span>, <span class="hljs-number">5</span>, <span class="hljs-number">8</span>, <span class="hljs-number">4</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">6</span>, <span class="hljs-number">3</span>, <span class="hljs-number">7</span>, <span class="hljs-number">9</span>, <span class="hljs-number">10</span>, <span class="hljs-number">5</span>, <span class="hljs-number">8</span>, <span class="hljs-number">4</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>, ]<br>    VI = [<span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-string">&#x27;X&#x27;</span>, <span class="hljs-number">9</span>, <span class="hljs-number">8</span>, <span class="hljs-number">7</span>, <span class="hljs-number">6</span>, <span class="hljs-number">5</span>, <span class="hljs-number">4</span>, <span class="hljs-number">3</span>, <span class="hljs-number">2</span>, ]<br>    AI = []<br>    <span class="hljs-keyword">if</span> <span class="hljs-built_in">len</span>(<span class="hljs-built_in">id</span>) == <span class="hljs-number">18</span>:<br>        <span class="hljs-built_in">id</span> = <span class="hljs-built_in">id</span>[<span class="hljs-number">0</span>:-<span class="hljs-number">1</span>]<br>    <span class="hljs-keyword">if</span> <span class="hljs-built_in">len</span>(<span class="hljs-built_in">id</span>) == <span class="hljs-number">17</span>:<br>        S = <span class="hljs-number">0</span><br>        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">id</span>:<br>            AI.append(<span class="hljs-built_in">int</span>(i))<br>        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">17</span>):<br>            S = S + WI[i] * AI[i]<br>        remain = S % <span class="hljs-number">11</span><br>    <span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;X&#x27;</span> <span class="hljs-keyword">if</span> remain == <span class="hljs-number">2</span> <span class="hljs-keyword">else</span> <span class="hljs-built_in">str</span>(VI[remain])<br><br><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">up_to_eighteen</span>(<span class="hljs-params">card_id</span>):</span><br>    <span class="hljs-string">&quot;&quot;&quot;</span><br><span class="hljs-string">    15位转18位</span><br><span class="hljs-string">    :param card_id: (字符串格式)</span><br><span class="hljs-string">    :return:</span><br><span class="hljs-string">    &quot;&quot;&quot;</span><br>    eighteen_card_id = <span class="hljs-built_in">str</span>(card_id[<span class="hljs-number">0</span>:<span class="hljs-number">6</span>]) + <span class="hljs-string">&#x27;19&#x27;</span> + <span class="hljs-built_in">str</span>(card_id[<span class="hljs-number">6</span>:<span class="hljs-number">15</span>])<br>    <span class="hljs-keyword">return</span> eighteen_card_id + transfirm_cardId(eighteen_card_id)<br><br><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">down_to_fifteen</span>(<span class="hljs-params">card_id</span>):</span><br>    <span class="hljs-string">&quot;&quot;&quot;</span><br><span class="hljs-string">    18位转15位</span><br><span class="hljs-string">    :param card_id:(字符串格式)</span><br><span class="hljs-string">    :return:</span><br><span class="hljs-string">    &quot;&quot;&quot;</span><br>    <span class="hljs-keyword">return</span> card_id[<span class="hljs-number">0</span>:<span class="hljs-number">6</span>] + card_id[<span class="hljs-number">8</span>:<span class="hljs-number">17</span>]<br><br><br><span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&#x27;__main__&#x27;</span>:<br>    <span class="hljs-built_in">print</span>(up_to_eighteen(<span class="hljs-string">&quot;441700680129516&quot;</span>))<br>    <span class="hljs-built_in">print</span>(down_to_fifteen(<span class="hljs-string">&quot;44170019680129516X&quot;</span>))<br></code></pre></td></tr></table></figure>
             </div>
             <hr>
             <div>
@@ -255,11 +252,7 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/git/">git</a>
-                    
-                      <a class="hover-with-bg" href="/tags/ssh-key/">ssh key</a>
-                    
-                      <a class="hover-with-bg" href="/tags/mac-git/">mac git</a>
+                      <a class="hover-with-bg" href="/tags/%E8%BA%AB%E4%BB%BD%E8%AF%81%E6%A0%A1%E9%AA%8C/">身份证校验</a>
                     
                   </div>
                 
@@ -276,18 +269,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/01/12/%E8%AF%81%E4%BB%B6%E5%8F%B7%E7%A0%8115%E4%BD%8D%E4%B8%8E18%E4%BD%8D%E7%9B%B8%E4%BA%92%E8%BD%AC%E5%8C%96/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">证件号码15位与18位相互转化</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2021/12/10/git%E6%8A%A5%E9%94%99%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98%E8%AF%B4%E6%98%8E/">
-                        <span class="hidden-mobile">git报错权限问题说明</span>
+                      <a href="/2022/01/12/github%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/">
+                        <span class="hidden-mobile">github配置记录</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
