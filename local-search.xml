@@ -4,6 +4,29 @@
   
   
   <entry>
+    <title>github配置记录</title>
+    <link href="/2022/01/12/github%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/"/>
+    <url>/2022/01/12/github%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</url>
+    
+    <content type="html"><![CDATA[<h4 id="1-生成ssh-key"><a href="#1-生成ssh-key" class="headerlink" title="1. 生成ssh key"></a>1. 生成ssh key</h4><p><code>ssh-keygen -t rsa -C &quot;19***47@qq.com&quot;</code></p><h4 id="2-权限"><a href="#2-权限" class="headerlink" title="2. 权限"></a>2. 权限</h4><p><code>chmod 600 github(private key)</code></p><h4 id="3-身份添加-以下为自己的目录"><a href="#3-身份添加-以下为自己的目录" class="headerlink" title="3. 身份添加(以下为自己的目录)"></a>3. 身份添加(以下为自己的目录)</h4><p><code>ssh-add /Users/yourname.github.io/github</code></p><h5 id="3-1-成功提示"><a href="#3-1-成功提示" class="headerlink" title="3.1 成功提示"></a>3.1 成功提示</h5><p>Identity added: /Users/yourname.github.io/github (19***<a href="mailto:&#x34;&#55;&#x40;&#x71;&#x71;&#x2e;&#x63;&#111;&#109;">&#x34;&#55;&#x40;&#x71;&#x71;&#x2e;&#x63;&#111;&#109;</a>)</p><h4 id="4-测试"><a href="#4-测试" class="headerlink" title="4. 测试"></a>4. 测试</h4><p><code>ssh -T git@github.com</code></p><h5 id="4-1-成功结果"><a href="#4-1-成功结果" class="headerlink" title="4.1 成功结果"></a>4.1 成功结果</h5><p>Hi ***! You’ve successfully authenticated, but GitHub does not provide shell access.</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>git</tag>
+      
+      <tag>ssh key</tag>
+      
+      <tag>mac</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>git报错权限问题说明</title>
     <link href="/2021/12/10/git%E6%8A%A5%E9%94%99%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98%E8%AF%B4%E6%98%8E/"/>
     <url>/2021/12/10/git%E6%8A%A5%E9%94%99%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98%E8%AF%B4%E6%98%8E/</url>
